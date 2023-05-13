@@ -1,0 +1,60 @@
+.portfolioHead {
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    
+}
+p {
+    font-size: 1.8rem;
+    
+}
+
+.containerHead {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media(max-width:768px) {
+    .containerHead {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 45rem;
+    max-width: 35rem;
+    background-color: rgba(243, 238, 238, 0.773);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.portfolioButton {
+    padding: 1rem;
+    background-color: #f4c65bc3;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none !important;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #ffcd57;
+    transition-duration: 300ms;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+
+img {
+    max-width: 30vh;
+    max-height: 30vh;
+}

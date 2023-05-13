@@ -1,0 +1,31 @@
+.footerContainer {
+    background-color: #4a3a47b5;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    width: auto;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+@media (max-width:768px) {
+    .footer {
+       flex-direction: column;
+       gap: 1rem;
+    }
+}
+
+ .icon {
+    font-size: 3rem;
+}
+
+.pFooter {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-bottom: 0rem;
+}

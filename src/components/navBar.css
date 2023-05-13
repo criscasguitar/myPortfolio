@@ -1,0 +1,49 @@
+.divNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4c65bc3;
+    box-shadow: 0 0 10px 1px #504e50bb;
+    height: 10%;
+    width: 100%;
+    font-size: 1.6vh;
+}
+
+
+.button-css {
+    display:block;
+    border: none;
+    background-color: transparent;
+}
+
+.bottonActive {
+    border-radius: 5px;
+}
+
+.ul-flex {
+    list-style: none;
+    display: none;
+    margin: 2vh;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.isActive {
+
+}
+.menuActive {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3ca6ab6;
+    margin: 0vh;
+    width: 100%;
+    transform: rotate(0deg);
+    transition: all 0.3s ease-in-out;
+
+}

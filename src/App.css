@@ -1,0 +1,19 @@
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+    margin-bottom: 0vh;
+    font-size: 1.9em;
+}
+
+hr{
+    background-image: linear-gradient(to right,transparent, #ffcd57,transparent);
+    border: 0;
+    height: 0.1rem;
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}

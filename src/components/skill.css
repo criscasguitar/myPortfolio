@@ -1,0 +1,31 @@
+.skillset {
+
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.skills h4{
+    background-color: rgba(243, 238, 238, 0.773);
+    width: 9rem ;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #888888;
+}
+
+@media(max-width:768px) {
+    .skills  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

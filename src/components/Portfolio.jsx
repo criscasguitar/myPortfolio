@@ -4,6 +4,7 @@ import image1 from '../assets/img/expensePlanner.png'
 import imageVet from '../assets/img/vet.png'
 import imageFest from '../assets/img/festival.png'
 import imageUpTask from '../assets/img/upTask.png'
+import imageGuitarLA from '../assets/img/GuitarLA.png'
 
 function Portfolio() {
   return (
@@ -52,6 +53,15 @@ function Portfolio() {
               <p>UpTask is a task planner, was created with PHP, JavaScript, SASS, npm, SQL, MySQL, HTML, with design pattern MVC, the API was created by me, the conection into databases, and response with json.</p>
             <button className='portfolioButton'>
               <a href="https://uptaskmvc.alwaysdata.net/" target='_blank'>Go to Web Site</a>
+            </button>
+          </div>
+
+          <div className='description'>
+            <h2 className='title'>GuitarLA</h2>
+            <img src={imageGuitarLA} alt="Web Site image" />
+              <p>This project was created with React.Js, Strapi, APIS, Cloudinary, and render, learning differents ways to connect APIS, and more than one API; GuitarLA is a project that simulates a Guitar Stores.</p>
+            <button className='portfolioButton'>
+              <a href="https://guitarla-next-lac.vercel.app/" target='_blank'>Go to Web Site</a>
             </button>
           </div>
 

@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <footer className='footerContainer'>
+    <footer className='footerContainer' id='contact'>
         <p className='pFooter'>All Rights reserved</p>
       <ul className='footer'>
         <li >

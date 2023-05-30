@@ -4,6 +4,7 @@ import TextOfMe from "./components/TextOfMe"
 import Portfolio from "./components/Portfolio"
 import Footer from "./components/Footer"
 import Skillset from "./components/Skillset"
+import Transition from './components/Transition'
 
 
 function App() {

@@ -22,9 +22,13 @@ const Header = () => {
   return (
     <Header1>
        <DivHeader>
+          <div data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
             <h1>Cristian Castro</h1>
-            <Line />
+              <Line />
             <h3>FullStack Developer</h3>
+          </div>
        </DivHeader>
     </Header1>
   )

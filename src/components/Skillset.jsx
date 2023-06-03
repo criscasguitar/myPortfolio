@@ -5,7 +5,7 @@ function Skillset() {
     <section className='skillset' id='skillset'>
         <h1 className='titulo'>Skillset</h1>
 
-        <div className='skills'>
+        <div className='skills' data-aos="zoom-in-up">
             <h4>CSS</h4>
             <h4>HTML</h4>
             <h4>Java</h4>

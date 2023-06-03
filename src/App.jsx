@@ -4,7 +4,6 @@ import TextOfMe from "./components/TextOfMe"
 import Portfolio from "./components/Portfolio"
 import Footer from "./components/Footer"
 import Skillset from "./components/Skillset"
-import Transition from './components/Transition'
 
 
 function App() {
@@ -29,6 +28,4 @@ export default App
 #e6f0af
 #e8ed76
 #ffcd57
-#4a3a47
-https://www.xaviro.com/#portfolio
-https://tapajyoti-bose.vercel.app/ */
+#4a3a47 */

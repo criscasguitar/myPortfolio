@@ -55,7 +55,7 @@ const NavBar = () => {
 
     </div>
     
-    <section>
+    <section data-aos='slide-down'>
         <nav className={`ul-flex ${menu ? 'menuActive' : ''}`}>
 
         <ul className='listFull'>

@@ -5,6 +5,7 @@ import imageVet from '../assets/img/vet.png'
 import imageFest from '../assets/img/festival.png'
 import imageUpTask from '../assets/img/upTask.png'
 import imageGuitarLA from '../assets/img/GuitarLA.png'
+import salesMeals from '../assets/img/salesMeals.png'
 
 function Portfolio() {
   return (
@@ -62,6 +63,15 @@ function Portfolio() {
                 <p>This project was created with React.Js, Strapi, APIS, Cloudinary, and render, learning differents ways to connect APIS, and more than one API; GuitarLA is a project that simulates a Guitar Stores.</p>
             <button className='portfolioButton'>
                 <a href="https://guitarla-next-lac.vercel.app/" target='_blank'>Go to Web Site</a>
+            </button>
+          </div>
+
+          <div className='description' data-aos="fade-up">
+            <h2 className='title'>Sales Meals</h2>
+            <img src={salesMeals} alt="Web Site image" />
+                <p>This project was created with React.Js, Prisma, Next.js, MySql, and TailwindCSS, it simulates a web app of Sales of fast or junk food, there you could send, edit and delete your orders.</p>
+            <button className='portfolioButton'>
+                <a href="https://salemeals-app-production.up.railway.app/" target='_blank'>Go to Web Site</a>
             </button>
           </div>
 

@@ -16,6 +16,7 @@ const Line = styled.hr`
     border: 0;
     height: 0.1rem;
     max-width: 100%;
+    margin: 0;
 `
 
 const Header = () => {

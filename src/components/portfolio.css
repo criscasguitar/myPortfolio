@@ -2,11 +2,11 @@
     text-align: center;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     
 }
 p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     
 }
 
@@ -21,8 +21,7 @@ p {
         grid-template-columns: repeat(1, 1fr);
     }
     .description{
-        height: auto;
-        max-width: auto;
+        
     }
     
 }
@@ -31,11 +30,11 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 45rem;
-    max-width: 45rem;
+    height: 35rem;
+    max-width: 40rem;
     background-color: rgba(243, 238, 238, 0.773);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
+    
 }
 
 .portfolioButton {
@@ -44,6 +43,7 @@ p {
     border: none;
     border-radius: 25px;
     text-decoration: none !important;
+    position: relative;
 }
 
 button:hover {
@@ -61,6 +61,15 @@ a {
 }
 
 img {
-    max-width: 30vh;
-    max-height: 30vh;
+    max-width: 20vh;
+    max-height: 20vh;
+}
+
+hr {
+    background-image: linear-gradient(to right,transparent,#e6f0af,transparent);
+    border: 0;
+    height: 0.1rem;
+    max-width: 100%;
+    margin: 8rem 0 5rem 0;
+
 }

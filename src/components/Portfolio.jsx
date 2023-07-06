@@ -13,7 +13,7 @@ function Portfolio() {
     <>
         <div className='portfolioHead' id='portfolio'>
             <h1>My Portfolio</h1>
-            <p>Here you can see some projects made it by me  and lenguages and tools what i use.</p>
+            <p>Here you can see some projects made it by me  and lenguages and tools what I use.</p>
             
         </div>
 

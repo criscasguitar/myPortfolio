@@ -21,11 +21,6 @@ function Footer() {
             <FaTwitter className='icon'/>
           </a>
         </li>
-        <li >
-          <a href="https://api.whatsapp.com/50671301104" target="_blank" rel="noopener noreferrer">
-            <FaWhatsapp className='icon'/>
-          </a>
-        </li>
       </ul>
     </footer>
   );

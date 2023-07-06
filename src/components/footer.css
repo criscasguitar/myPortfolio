@@ -16,6 +16,7 @@
     .footer {
        flex-direction: row;
        gap: 1rem;
+       margin: 0;
     }
 }
 

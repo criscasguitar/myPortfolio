@@ -21,9 +21,9 @@ p {
         grid-template-columns: repeat(1, 1fr);
     }
     .description{
-        
+        height: auto;
+        width: auto;
     }
-    
 }
 
 .description {
@@ -38,7 +38,7 @@ p {
 }
 
 .portfolioButton {
-    padding: 1rem;
+    padding: 2rem;
     background-color: #f4c65bc3;
     border: none;
     border-radius: 25px;

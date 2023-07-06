@@ -45,6 +45,9 @@ p {
     text-decoration: none !important;
     position: relative;
 }
+a{
+    text-decoration: none !important;
+}
 
 button:hover {
     cursor: pointer;

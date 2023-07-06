@@ -60,7 +60,7 @@ function Portfolio() {
           <div className='description' data-aos="fade-down">
             <h2 className='title'>UpTask</h2>
             <img src={imageUpTask} alt="Web Site image" />
-                <p>UpTask is a task planner, was created with PHP, JavaScript, SASS, npm, SQL, MySQL, HTML, with design pattern MVC, the API was created by me, the conection into databases, and response with json.</p>
+                <p>UpTask is a task planner, was created with PHP, JavaScript, SASS, SQL, MySQL, with design pattern MVC, the API was created by me, the conection into databases, and response with json.</p>
             <a href="https://uptaskmvc.alwaysdata.net/" target='_blank'>
                   <button className='portfolioButton'>
                       Go to Web Site
@@ -82,7 +82,7 @@ function Portfolio() {
           <div className='description' data-aos="fade-up">
             <h2 className='title'>Sales Meals</h2>
             <img src={salesMeals} alt="Web Site image" />
-                <p>This project was created with React.Js, Prisma, Next.js, MySql, and TailwindCSS, it simulates a web app of Sales of fast or junk food, there you could send, edit and delete your orders.</p>
+                <p>This project was created with React.Js, Prisma, Next.js, MySql, and TailwindCSS, it simulates a web app of Sales, there you could send, edit and delete your orders.</p>
             <a href="https://salemeals-app-production.up.railway.app/" target='_blank'>
                   <button className='portfolioButton'>
                       Go to Web Site

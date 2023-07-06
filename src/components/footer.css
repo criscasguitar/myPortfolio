@@ -14,7 +14,7 @@
 }
 @media (max-width:768px) {
     .footer {
-       flex-direction: column;
+       flex-direction: row;
        gap: 1rem;
     }
 }
